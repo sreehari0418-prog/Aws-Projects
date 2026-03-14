@@ -1,149 +1,30 @@
-1️⃣ Real-Time Stock Market Data Analytics Pipeline
-Project Overview
+# AWS Projects Portfolio
 
-This project implements a real-time stock market analytics pipeline using serverless and event-driven cloud services. The system ingests stock market data in real time, processes the data to detect trends, stores structured records for quick lookup, and sends notifications when specific conditions are met.
+Welcome to my collection of AWS cloud projects. This repository showcases various serverless, event-driven, and data-driven solutions built on Amazon Web Services.
 
-The architecture is designed to be scalable, automated, and cost-efficient.
+## 🚀 Projects
 
-AWS Services Used
+### 1. [Real-Time Stock Market Data Analytics Pipeline](./Real-Time-Stock-Market-Data-Analytics/)
+An event-driven pipeline that ingests real-time stock data, processes it using Lambda, and stores it in DynamoDB, with automated alerts via SNS and historical analysis via Athena.
+- **Key Services**: Kinesis, Lambda, DynamoDB, S3, Athena, SNS.
 
-Amazon Kinesis Data Streams – Ingests real-time stock data.
+### 2. [End-to-End Serverless Data Pipeline](./End-to-End-Serverless-Data-Pipeline/)
+A fully automated ETL pipeline that transforms raw CSV data into actionable insights visualized through QuickSight dashboards.
+- **Key Services**: S3, Lambda, Glue, Athena, QuickSight.
 
-AWS Lambda – Processes incoming stock events.
+### 3. [Automated Receipt Processing System](./Automated-Receipt-Processing-System/)
+An AI-powered system that uses Textract to extract structured data from receipt images/PDFs and sends email notifications upon completion.
+- **Key Services**: S3, Lambda, Textract, DynamoDB, SES.
 
-Amazon DynamoDB – Stores structured stock records.
+---
 
-Amazon S3 – Stores raw stock data for historical analysis.
+## 🛠️ Skills Showcase
+- **Cloud Providers**: Amazon Web Services (AWS)
+- **Data Engineering**: AWS Glue, Amazon Athena, Amazon Kinesis
+- **Serverless Computing**: AWS Lambda, Event-Driven Architectures
+- **Databases**: Amazon DynamoDB, Amazon S3
+- **AI/ML**: Amazon Textract
+- **DevOps/Automation**: IAM, SNS, SES
 
-Amazon Athena – Queries data stored in S3.
-
-Amazon Simple Notification Service – Sends alerts via email/SMS.
-
-AWS Identity and Access Management – Manages permissions.
-
-Architecture
-
-Workflow of the system:
-
-Stock Data Producer
-        ↓
-Kinesis Data Stream
-        ↓
-Lambda Function
-        ↓
-DynamoDB (Store Processed Data)
-        ↓
-SNS (Send Alerts)
-
-Raw Data → S3 → Athena (Query for Analysis)
-Features
-
-Real-time data ingestion
-
-Event-driven processing
-
-Serverless architecture
-
-Historical data analysis
-
-Automated notifications
-## Architecture Diagram
-
-![Architecture Diagram](project1)
-## Demo Video
-
-[![Watch Demo](demoproject1)
-
-2️⃣ End-to-End Serverless Data Pipeline
-Project Overview
-
-This project demonstrates how to build a fully automated serverless data pipeline on AWS. Raw CSV data is uploaded to cloud storage, automatically processed and cataloged, and then visualized using a business intelligence dashboard.
-
-The pipeline enables data transformation, querying, and visualization without managing servers.
-
-AWS Services Used
-
-Amazon S3 – Stores raw datasets.
-
-AWS Lambda – Triggers workflow automation.
-
-AWS Glue – Runs crawlers and ETL jobs to prepare data.
-
-Amazon Athena – Queries processed datasets.
-
-Amazon QuickSight – Builds dashboards for data visualization.
-
-AWS Identity and Access Management – Manages roles and permissions.
-
-Architecture
-CSV Upload
-    ↓
-Amazon S3
-    ↓
-Lambda Trigger
-    ↓
-AWS Glue Crawler
-    ↓
-AWS Glue ETL Job
-    ↓
-Amazon Athena Query
-    ↓
-Amazon QuickSight
-Dashboard
-Features
-
-Automated data ingestion
-
-ETL data transformation
-
-Serverless data analytics pipeline
-
-SQL-based data querying
-
-Interactive business dashboards
-3️⃣ Automated Receipt Processing System
-Project Overview
-
-This project builds an automated receipt processing system using cloud AI and serverless services. When a receipt image or PDF is uploaded, the system automatically extracts structured information such as store name, total amount, tax, and purchase date.
-
-The extracted data is stored in a database and a notification email is sent once processing is completed.
-
-AWS Services Used
-
-Amazon S3 – Stores uploaded receipt images and PDFs.
-
-AWS Lambda – Automates the workflow.
-
-Amazon Textract – Extracts structured text from receipts.
-
-Amazon DynamoDB – Stores extracted receipt information.
-
-Amazon Simple Email Service – Sends email notifications after processing.
-
-AWS Identity and Access Management – Handles permissions.
-
-Architecture
-Receipt Upload
-     ↓
-Amazon S3
-     ↓
-Lambda Trigger
-     ↓
-Amazon Textract
-     ↓
-Extracted Data
-     ↓
-DynamoDB
-     ↓
-Email Notification (SES)
-Features
-
-Automated receipt data extraction
-
-OCR-based document processing
-
-Event-driven automation
-
-Structured data storage
-
-Email notifications
+## 📬 Contact
+Feel free to reach out if you have any questions or would like to collaborate!
