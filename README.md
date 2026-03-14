@@ -82,7 +82,8 @@ AWS Glue ETL Job
     ↓
 Amazon Athena Query
     ↓
-Amazon QuickSight Dashboard
+Amazon QuickSight
+Dashboard
 Features
 
 Automated data ingestion
