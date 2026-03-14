@@ -47,6 +47,9 @@ Serverless architecture
 Historical data analysis
 
 Automated notifications
+## Architecture Diagram
+
+![Architecture Diagram](Screenshot 2026-03-14 at 12.53.17 PM.png)
 
 2️⃣ End-to-End Serverless Data Pipeline
 Project Overview
