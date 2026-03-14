@@ -26,3 +26,6 @@ The pipeline enables data transformation, querying, and visualization without ma
 - Serverless data analytics pipeline
 - SQL-based data querying
 - Interactive business dashboards
+
+## Demo
+[Watch Demo](demo-recording.mov)

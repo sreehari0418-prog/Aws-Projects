@@ -26,3 +26,6 @@ The extracted data is stored in a database and a notification email is sent once
 - Event-driven automation
 - Structured data storage
 - Email notifications
+
+## Demo
+[Watch Demo](demo-recording.mov)

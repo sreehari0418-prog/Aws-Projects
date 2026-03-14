@@ -33,4 +33,4 @@ The architecture is designed to be scalable, automated, and cost-efficient.
 - Automated notifications
 
 ## Demo
-[Watch Demo](demoproject1)
+[Watch Demo](demo-recording.mov)
