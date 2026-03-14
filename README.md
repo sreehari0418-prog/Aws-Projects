@@ -50,6 +50,9 @@ Automated notifications
 ## Architecture Diagram
 
 ![Architecture Diagram](project1)
+## Demo Video
+
+[![Watch Demo](demoproject1)
 
 2️⃣ End-to-End Serverless Data Pipeline
 Project Overview
