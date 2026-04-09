@@ -1,0 +1,15 @@
+# General
+.DS_Store
+
+# Terraform
+**/.terraform/
+**/*.tfstate*
+**/terraform.tfvars
+**/.terraform.lock.hcl
+
+# Build Artifacts
+**/backend.zip
+**/node_modules/
+**/dist/
+**/response.json
+**/demo-recording.mov.icloud

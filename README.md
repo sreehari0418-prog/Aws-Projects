@@ -16,9 +16,9 @@ An event-driven pipeline that ingests real-time stock data, processes it using L
 A fully automated ETL pipeline that transforms raw CSV data into actionable insights visualized through QuickSight dashboards.
 - **Key Services**: S3, Lambda, Glue, Athena, QuickSight.
 
-### 4. [Automated Receipt Processing System](./Automated-Receipt-Processing-System/)
-An AI-powered system that uses Textract to extract structured data from receipt images/PDFs and sends email notifications upon completion.
-- **Key Services**: S3, Lambda, Textract, DynamoDB, SES.
+### 5. [Blood Fit - AI-Powered Medical Report Analysis System](./Blood-Fit-AI-Analysis/)
+An enterprise-grade serverless application that uses AWS Textract and Comprehend to extract and analyze 50+ clinical blood markers from medical reports. Features a fully automated DevSecOps CI/CD pipeline using GitHub Actions, Docker, AWS EKS, and ArgoCD GitOps.
+- **Key Services**: Lambda, Textract, Comprehend, DynamoDB, S3, API Gateway, Docker, EKS, GitHub Actions, ArgoCD.
 
 ---
 
